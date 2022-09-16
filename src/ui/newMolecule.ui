@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewMoleculeDialog</class>
+ <widget class="QDialog" name="NewMoleculeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1132</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Structure Viewer</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QFrame" name="verticalFrame">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="locale">
+        <locale language="English" country="UnitedKingdom"/>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_16">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>46</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>He-He-He-He</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="side_symbol">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>46</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string notr="true">C</string>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="btn_addChild">
+            <property name="text">
+             <string>Add Child</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_delete">
+            <property name="text">
+             <string>Delete This</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_element">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QFormLayout" name="formLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Element</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="side_elementName">
+             <property name="editable">
+              <bool>true</bool>
+             </property>
+             <property name="currentText">
+              <string>Hydrogen</string>
+             </property>
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Hydrogen</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Helium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Lithium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Beryllium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Boron</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Carbon</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Nitrogen</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Oxygen</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Fluorine</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Neon</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Sodium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Magnesium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Aluminum</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Silicon</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Phosphorus</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Sulfur</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Chlorine</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Argon</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Potassium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Calcium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Scandium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Titanium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Vanadium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Chromium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Manganese</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Iron</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Cobalt</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Nickel</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Copper</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Zinc</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Gallium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Germanium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Arsenic</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Selenium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Bromine</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Krypton</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Rubidium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Strontium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Yttrium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Zirconium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Niobium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Molybdenum</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Technetium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Ruthenium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Rhodium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Palladium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Silver</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Cadmium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Indium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Tin</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Antimony</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Tellurium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Iodine</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Xenon</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Cesium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Barium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Lanthanum</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Cerium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Praseodymium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Neodymium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Promethium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Samarium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Europium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Gadolinium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Terbium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Dysprosium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Holmium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Erbium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Thulium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Ytterbium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Lutetium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Hafnium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Tantalum</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Wolfram</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Rhenium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Osmium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Iridium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Platinum</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Gold</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Mercury</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Thallium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Lead</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Bismuth</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Polonium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Astatine</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Radon</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Francium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Radium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Actinium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Thorium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Protactinium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Uranium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Neptunium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Plutonium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Americium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Curium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Berkelium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Californium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Einsteinium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Fermium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Mendelevium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Nobelium</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Lawrencium</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Type</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="side_type">
+             <property name="editable">
+              <bool>true</bool>
+             </property>
+             <property name="currentText">
+              <string>Linear</string>
+             </property>
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <item>
+              <property name="text">
+               <string>Linear</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Trigonal</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Resonant</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Tetrahedral</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Square Planar</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Trigonal Bipyramidal</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Octahedral</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>X [Å]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="side_x">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>Y [Å]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="side_y">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Z [Å]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLineEdit" name="side_z">
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Mass [u]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLineEdit" name="side_mass">
+             <property name="text">
+              <string>12.0107</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>Effective Charge [e]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLineEdit" name="side_charge">
+             <property name="text">
+              <string>1.912</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>Bond Radius [Å]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QLineEdit" name="side_bondRadius">
+             <property name="text">
+              <string>0.757</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Nonebond Distance [Å]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1">
+            <widget class="QLineEdit" name="side_nonebondDistance">
+             <property name="text">
+              <string>3.841</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Charge [e]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="side_chargeParam"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="Line" name="line_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="0">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Valence Angle [Deg]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="1">
+            <widget class="QLineEdit" name="side_valenzAngle"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_torsion">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QFormLayout" name="formLayout_2">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;n &lt;/span&gt;in fourier transform [1]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="side_nTorsional"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Torsional Barrier [kcal/mol]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>Torsional Angle [Deg]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="side_vTorsional"/>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="side_angleTorsional"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_bond">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QFormLayout" name="formLayout_3">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>Bond Order [1]</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="side_bondOrder"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="LewisView" name="lewisView" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+     <property name="centerButtons">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>LewisView</class>
+   <extends>QWidget</extends>
+   <header>ui/lewisview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>NewMoleculeDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>NewMoleculeDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

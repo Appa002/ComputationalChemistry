@@ -1,0 +1,346 @@
+{"HYDROGEN", {{"LINEAR", {{"+0", DATA_Element("H", "Linear", 1.0070000000000001, 0.354, 180.0, 2.886, 0.7120000000000001)}
+}}
+}},
+{"HELIUM", {{"SQUARE PLANAR", {{"+4", DATA_Element("He", "Square Planar", 4.002, 0.8490000000000001, 90.0, 2.362, 0.098)}
+}}
+}},
+{"LITHIUM", {{"LINEAR", {{"+0", DATA_Element("Li", "Linear", 6.941, 1.3359999999999999, 180.0, 2.451, 1.026)}
+}}
+}},
+{"BERYLLIUM", {{"TETRAHEDRAL", {{"+2", DATA_Element("Be", "Tetrahedral", 9.012, 1.074, 109.47, 2.745, 1.565)}
+}}
+}},
+{"BORON", {{"TETRAHEDRAL", {{"+0", DATA_Element("B", "Tetrahedral", 10.811, 0.838, 109.47, 4.083, 1.755)}
+}},
+{"TRIGONAL", {{"+0", DATA_Element("B", "Trigonal", 10.811, 0.828, 120.0, 4.083, 1.755)}
+}}
+}},
+{"CARBON", {{"TETRAHEDRAL", {{"+0", DATA_Element("C", "Tetrahedral", 12.011, 0.757, 109.47, 3.8510000000000004, 1.912)}
+}},
+{"RESONANT", {{"+0", DATA_Element("C", "Resonant", 12.011, 0.7290000000000001, 120.0, 3.8510000000000004, 1.912)}
+}},
+{"TRIGONAL", {{"+0", DATA_Element("C", "Trigonal", 12.011, 0.732, 120.0, 3.8510000000000004, 1.912)}
+}},
+{"LINEAR", {{"+0", DATA_Element("C", "Linear", 12.011, 0.706, 180.0, 3.8510000000000004, 1.912)}
+}}
+}},
+{"NITROGEN", {{"TETRAHEDRAL", {{"+0", DATA_Element("N", "Tetrahedral", 14.007, 0.7, 106.7, 3.66, 2.544)}
+}},
+{"RESONANT", {{"+0", DATA_Element("N", "Resonant", 14.007, 0.6990000000000001, 120.0, 3.66, 2.544)}
+}},
+{"TRIGONAL", {{"+0", DATA_Element("N", "Trigonal", 14.007, 0.685, 111.2, 3.66, 2.544)}
+}},
+{"LINEAR", {{"+0", DATA_Element("N", "Linear", 14.007, 0.6559999999999999, 180.0, 3.66, 2.544)}
+}}
+}},
+{"OXYGEN", {{"TETRAHEDRAL", {{"+0", DATA_Element("O", "Tetrahedral", 15.999, 0.6579999999999999, 104.51, 3.5, 2.3)},
+{"-2", DATA_Element("O", "Tetrahedral", 15.999, 0.528, 146.0, 3.5, 2.3)}
+}},
+{"RESONANT", {{"+0", DATA_Element("O", "Resonant", 15.999, 0.68, 110.0, 3.5, 2.3)}
+}},
+{"TRIGONAL", {{"+0", DATA_Element("O", "Trigonal", 15.999, 0.634, 120.0, 3.5, 2.3)}
+}},
+{"LINEAR", {{"+0", DATA_Element("O", "Linear", 15.999, 0.639, 180.0, 3.5, 2.3)}
+}}
+}},
+{"FLUORINE", {{"LINEAR", {{"+0", DATA_Element("F", "Linear", 18.998, 0.6679999999999999, 180.0, 3.364, 1.735)}
+}}
+}},
+{"NEON", {{"SQUARE PLANAR", {{"+4", DATA_Element("Ne", "Square Planar", 20.18, 0.92, 90.0, 3.2430000000000003, 0.19399999999999998)}
+}}
+}},
+{"SODIUM", {{"LINEAR", {{"+0", DATA_Element("Na", "Linear", 22.99, 1.5390000000000001, 180.0, 2.983, 1.081)}
+}}
+}},
+{"MAGNESIUM", {{"TETRAHEDRAL", {{"+2", DATA_Element("Mg", "Tetrahedral", 24.305, 1.421, 109.47, 3.0210000000000004, 1.787)}
+}}
+}},
+{"ALUMINUM", {{"TETRAHEDRAL", {{"+0", DATA_Element("Al", "Tetrahedral", 26.982, 1.244, 109.47, 4.499, 1.7919999999999998)}
+}}
+}},
+{"SILICON", {{"TETRAHEDRAL", {{"+0", DATA_Element("Si", "Tetrahedral", 28.086, 1.117, 109.47, 4.295, 2.323)}
+}}
+}},
+{"PHOSPHORUS", {{"TETRAHEDRAL", {{"+3", DATA_Element("P", "Tetrahedral", 30.974, 1.101, 93.8, 4.147, 2.863)},
+{"+5", DATA_Element("P", "Tetrahedral", 30.974, 1.056, 109.47, 4.147, 2.863)},
+{"+0", DATA_Element("P", "Tetrahedral", 30.974, 1.056, 109.47, 4.147, 2.863)}
+}}
+}},
+{"SULFUR", {{"TETRAHEDRAL", {{"+2", DATA_Element("S", "Tetrahedral", 32.065, 1.064, 92.1, 4.035, 2.7030000000000003)},
+{"+4", DATA_Element("S", "Tetrahedral", 32.065, 1.0490000000000002, 103.2, 4.035, 2.7030000000000003)},
+{"+6", DATA_Element("S", "Tetrahedral", 32.065, 1.0270000000000001, 109.47, 4.035, 2.7030000000000003)}
+}},
+{"RESONANT", {{"+0", DATA_Element("S", "Resonant", 32.065, 1.077, 92.2, 4.035, 2.7030000000000003)}
+}},
+{"TRIGONAL", {{"+0", DATA_Element("S", "Trigonal", 32.065, 0.8540000000000001, 120.0, 4.035, 2.7030000000000003)}
+}}
+}},
+{"CHLORINE", {{"LINEAR", {{"+0", DATA_Element("Cl", "Linear", 35.453, 1.044, 180.0, 3.947, 2.3480000000000003)}
+}}
+}},
+{"ARGON", {{"SQUARE PLANAR", {{"+4", DATA_Element("Ar", "Square Planar", 39.948, 1.032, 90.0, 3.8680000000000003, 0.3)}
+}}
+}},
+{"POTASSIUM", {{"LINEAR", {{"+0", DATA_Element("K", "Linear", 39.098, 1.953, 180.0, 3.812, 1.165)}
+}}
+}},
+{"CALCIUM", {{"OCTAHEDRAL", {{"+2", DATA_Element("Ca", "Octahedral", 40.078, 1.761, 90.0, 3.3989999999999996, 2.141)}
+}}
+}},
+{"SCANDIUM", {{"TETRAHEDRAL", {{"+3", DATA_Element("Sc", "Tetrahedral", 44.956, 1.5130000000000001, 109.47, 3.295, 2.592)}
+}}
+}},
+{"TITANIUM", {{"TETRAHEDRAL", {{"+4", DATA_Element("Ti", "Tetrahedral", 47.867, 1.412, 109.47, 3.175, 2.659)}
+}},
+{"OCTAHEDRAL", {{"+4", DATA_Element("Ti", "Octahedral", 47.867, 1.412, 90.0, 3.175, 2.659)}
+}}
+}},
+{"VANADIUM", {{"TETRAHEDRAL", {{"+5", DATA_Element("V", "Tetrahedral", 50.942, 1.402, 109.47, 3.1439999999999997, 2.679)}
+}}
+}},
+{"CHROMIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Cr", "Octahedral", 51.996, 1.345, 90.0, 3.023, 2.463)}
+}}
+}},
+{"MANGANESE", {{"OCTAHEDRAL", {{"+2", DATA_Element("Mn", "Octahedral", 54.938, 1.382, 90.0, 2.9610000000000003, 2.43)}
+}}
+}},
+{"IRON", {{"TETRAHEDRAL", {{"+2", DATA_Element("Fe", "Tetrahedral", 55.845, 1.27, 109.47, 2.912, 2.43)}
+}},
+{"OCTAHEDRAL", {{"+2", DATA_Element("Fe", "Octahedral", 55.845, 1.335, 90.0, 2.912, 2.43)}
+}}
+}},
+{"COBALT", {{"OCTAHEDRAL", {{"+3", DATA_Element("Co", "Octahedral", 58.933, 1.2409999999999999, 90.0, 2.872, 2.43)}
+}}
+}},
+{"NICKEL", {{"SQUARE PLANAR", {{"+2", DATA_Element("Ni", "Square Planar", 58.693000000000005, 1.1640000000000001, 90.0, 2.8339999999999996, 2.43)}
+}}
+}},
+{"COPPER", {{"TETRAHEDRAL", {{"+1", DATA_Element("Cu", "Tetrahedral", 63.54600000000001, 1.3019999999999998, 109.47, 3.495, 1.756)}
+}}
+}},
+{"ZINC", {{"TETRAHEDRAL", {{"+2", DATA_Element("Zn", "Tetrahedral", 65.38, 1.193, 109.47, 2.763, 1.308)}
+}}
+}},
+{"GALLIUM", {{"TETRAHEDRAL", {{"+3", DATA_Element("Ga", "Tetrahedral", 69.723, 1.26, 109.47, 4.383, 1.821)}
+}}
+}},
+{"GERMANIUM", {{"TETRAHEDRAL", {{"+0", DATA_Element("Ge", "Tetrahedral", 72.64, 1.197, 109.47, 4.28, 2.7889999999999997)}
+}}
+}},
+{"ARSENIC", {{"TETRAHEDRAL", {{"+3", DATA_Element("As", "Tetrahedral", 74.922, 1.2109999999999999, 92.1, 4.23, 2.864)}
+}}
+}},
+{"SELENIUM", {{"TETRAHEDRAL", {{"+2", DATA_Element("Se", "Tetrahedral", 78.96, 1.19, 90.6, 4.205, 2.764)}
+}}
+}},
+{"BROMINE", {{"LINEAR", {{"+0", DATA_Element("Br", "Linear", 79.904, 1.192, 180.0, 4.189, 2.519)}
+}}
+}},
+{"KRYPTON", {{"SQUARE PLANAR", {{"+4", DATA_Element("Kr", "Square Planar", 83.79799999999999, 1.147, 90.0, 4.141, 0.452)}
+}}
+}},
+{"RUBIDIUM", {{"LINEAR", {{"+0", DATA_Element("Rb", "Linear", 85.46799999999999, 2.26, 180.0, 4.114, 1.5919999999999999)}
+}}
+}},
+{"STRONTIUM", {{"OCTAHEDRAL", {{"+2", DATA_Element("Sr", "Octahedral", 87.62, 2.052, 90.0, 3.641, 2.449)}
+}}
+}},
+{"YTTRIUM", {{"TETRAHEDRAL", {{"+3", DATA_Element("Y", "Tetrahedral", 88.906, 1.6980000000000002, 109.47, 3.345, 3.2569999999999997)}
+}}
+}},
+{"ZIRCONIUM", {{"TETRAHEDRAL", {{"+4", DATA_Element("Zr", "Tetrahedral", 91.22399999999999, 1.564, 109.47, 3.1239999999999997, 3.667)}
+}}
+}},
+{"NIOBIUM", {{"TETRAHEDRAL", {{"+5", DATA_Element("Nb", "Tetrahedral", 92.906, 1.473, 109.47, 3.165, 3.6180000000000003)}
+}}
+}},
+{"MOLYBDENUM", {{"OCTAHEDRAL", {{"+6", DATA_Element("Mo", "Octahedral", 95.96, 1.4669999999999999, 90.0, 3.052, 3.4)}
+}},
+{"TETRAHEDRAL", {{"+6", DATA_Element("Mo", "Tetrahedral", 95.96, 1.484, 109.47, 3.052, 3.4)}
+}}
+}},
+{"TECHNETIUM", {{"OCTAHEDRAL", {{"+5", DATA_Element("Tc", "Octahedral", 98.0, 1.3219999999999998, 90.0, 2.998, 3.4)}
+}}
+}},
+{"RUTHENIUM", {{"OCTAHEDRAL", {{"+2", DATA_Element("Ru", "Octahedral", 101.07, 1.4780000000000002, 90.0, 2.963, 3.4)}
+}}
+}},
+{"RHODIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Rh", "Octahedral", 102.906, 1.3319999999999999, 90.0, 2.929, 3.508)}
+}}
+}},
+{"PALLADIUM", {{"SQUARE PLANAR", {{"+2", DATA_Element("Pd", "Square Planar", 106.42, 1.338, 90.0, 2.8989999999999996, 3.21)}
+}}
+}},
+{"CADMIUM", {{"TETRAHEDRAL", {{"+2", DATA_Element("Cd", "Tetrahedral", 112.411, 1.403, 109.47, 2.8480000000000003, 1.65)}
+}}
+}},
+{"INDIUM", {{"TETRAHEDRAL", {{"+3", DATA_Element("In", "Tetrahedral", 114.818, 1.459, 109.47, 4.463, 2.07)}
+}}
+}},
+{"TIN", {{"TETRAHEDRAL", {{"+0", DATA_Element("Sn", "Tetrahedral", 118.71, 1.3980000000000001, 109.47, 4.3919999999999995, 2.9610000000000003)}
+}}
+}},
+{"ANTIMONY", {{"TETRAHEDRAL", {{"+3", DATA_Element("Sb", "Tetrahedral", 121.76, 1.4069999999999998, 91.6, 4.42, 2.7039999999999997)}
+}}
+}},
+{"TELLURIUM", {{"TETRAHEDRAL", {{"+2", DATA_Element("Te", "Tetrahedral", 127.6, 1.386, 90.25, 4.47, 2.8819999999999997)}
+}}
+}},
+{"IODINE", {{"LINEAR", {{"+0", DATA_Element("I", "Linear", 126.904, 1.382, 180.0, 4.5, 2.65)}
+}}
+}},
+{"XENON", {{"SQUARE PLANAR", {{"+4", DATA_Element("Xe", "Square Planar", 131.293, 1.2670000000000001, 90.0, 4.404, 0.556)}
+}}
+}},
+{"CESIUM", {{"LINEAR", {{"+0", DATA_Element("Cs", "Linear", 132.905, 2.57, 180.0, 4.5169999999999995, 1.5730000000000002)}
+}}
+}},
+{"BARIUM", {{"OCTAHEDRAL", {{"+2", DATA_Element("Ba", "Octahedral", 137.327, 2.2769999999999997, 90.0, 3.7030000000000003, 2.727)}
+}}
+}},
+{"LANTHANUM", {{"TETRAHEDRAL", {{"+3", DATA_Element("La", "Tetrahedral", 138.905, 1.943, 109.47, 3.522, 3.3)}
+}}
+}},
+{"CERIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Ce", "Octahedral", 140.116, 1.841, 90.0, 3.556, 3.3)}
+}}
+}},
+{"PRASEODYMIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Pr", "Octahedral", 140.908, 1.8230000000000002, 90.0, 3.6060000000000003, 3.3)}
+}}
+}},
+{"NEODYMIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Nd", "Octahedral", 144.24200000000002, 1.8159999999999998, 90.0, 3.575, 3.3)}
+}}
+}},
+{"PROMETHIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Pm", "Octahedral", 145.0, 1.801, 90.0, 3.5469999999999997, 3.3)}
+}}
+}},
+{"SAMARIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Sm", "Octahedral", 150.36, 1.78, 90.0, 3.52, 3.3)}
+}}
+}},
+{"EUROPIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Eu", "Octahedral", 151.964, 1.771, 90.0, 3.4930000000000003, 3.3)}
+}}
+}},
+{"GADOLINIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Gd", "Octahedral", 157.25, 1.735, 90.0, 3.3680000000000003, 3.3)}
+}}
+}},
+{"TERBIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Tb", "Octahedral", 158.925, 1.732, 90.0, 3.451, 3.3)}
+}}
+}},
+{"DYSPROSIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Dy", "Octahedral", 162.5, 1.71, 90.0, 3.428, 3.3)}
+}}
+}},
+{"HOLMIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Ho", "Octahedral", 164.93, 1.696, 90.0, 3.409, 3.4160000000000004)}
+}}
+}},
+{"ERBIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Er", "Octahedral", 167.25900000000001, 1.673, 90.0, 3.391, 3.3)}
+}}
+}},
+{"THULIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Tm", "Octahedral", 168.93400000000003, 1.66, 90.0, 3.3739999999999997, 3.3)}
+}}
+}},
+{"YTTERBIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Yb", "Octahedral", 173.054, 1.6369999999999998, 90.0, 3.355, 2.6180000000000003)}
+}}
+}},
+{"LUTETIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Lu", "Octahedral", 174.967, 1.671, 90.0, 3.64, 3.2710000000000004)}
+}}
+}},
+{"HAFNIUM", {{"TETRAHEDRAL", {{"+4", DATA_Element("Hf", "Tetrahedral", 178.49, 1.611, 109.47, 3.141, 3.9210000000000003)}
+}}
+}},
+{"TANTALUM", {{"TETRAHEDRAL", {{"+5", DATA_Element("Ta", "Tetrahedral", 180.94799999999998, 1.511, 109.47, 3.17, 4.075)}
+}}
+}},
+{"WOLFRAM", {{"OCTAHEDRAL", {{"+6", DATA_Element("W", "Octahedral", 183.84, 1.392, 90.0, 3.069, 3.7)}
+}},
+{"TETRAHEDRAL", {{"+4", DATA_Element("W", "Tetrahedral", 183.84, 1.526, 109.47, 3.069, 3.7)},
+{"+6", DATA_Element("W", "Tetrahedral", 183.84, 1.38, 109.47, 3.069, 3.7)}
+}}
+}},
+{"RHENIUM", {{"OCTAHEDRAL", {{"+5", DATA_Element("Re", "Octahedral", 186.207, 1.3719999999999999, 90.0, 2.9539999999999997, 3.7)}
+}},
+{"TETRAHEDRAL", {{"+7", DATA_Element("Re", "Tetrahedral", 186.207, 1.314, 109.47, 2.9539999999999997, 3.7)}
+}}
+}},
+{"OSMIUM", {{"OCTAHEDRAL", {{"+6", DATA_Element("Os", "Octahedral", 190.23, 1.3719999999999999, 90.0, 3.12, 3.7)}
+}}
+}},
+{"IRIDIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Ir", "Octahedral", 192.217, 1.371, 90.0, 2.84, 3.7310000000000003)}
+}}
+}},
+{"PLATINUM", {{"SQUARE PLANAR", {{"+2", DATA_Element("Pt", "Square Planar", 195.084, 1.364, 90.0, 2.7539999999999996, 3.3819999999999997)}
+}}
+}},
+{"GOLD", {{"SQUARE PLANAR", {{"+3", DATA_Element("Au", "Square Planar", 196.967, 1.262, 90.0, 3.293, 2.625)}
+}}
+}},
+{"MERCURY", {{"LINEAR", {{"+2", DATA_Element("Hg", "Linear", 200.59, 1.34, 180.0, 2.705, 1.75)}
+}}
+}},
+{"THALLIUM", {{"TETRAHEDRAL", {{"+3", DATA_Element("Tl", "Tetrahedral", 204.38299999999998, 1.518, 120.0, 4.3469999999999995, 2.068)}
+}}
+}},
+{"LEAD", {{"TETRAHEDRAL", {{"+0", DATA_Element("Pb", "Tetrahedral", 207.2, 1.459, 109.47, 4.297, 2.846)}
+}}
+}},
+{"BISMUTH", {{"TETRAHEDRAL", {{"+3", DATA_Element("Bi", "Tetrahedral", 208.98, 1.5119999999999998, 90.0, 4.37, 2.47)}
+}}
+}},
+{"POLONIUM", {{"TETRAHEDRAL", {{"+2", DATA_Element("Po", "Tetrahedral", 210.0, 1.5, 90.0, 4.709, 2.33)}
+}}
+}},
+{"ASTATINE", {{"LINEAR", {{"+0", DATA_Element("At", "Linear", 210.0, 1.545, 180.0, 4.75, 2.24)}
+}}
+}},
+{"RADON", {{"SQUARE PLANAR", {{"+4", DATA_Element("Rn", "Square Planar", 222.0, 1.42, 90.0, 4.765, 0.583)}
+}}
+}},
+{"FRANCIUM", {{"LINEAR", {{"+0", DATA_Element("Fr", "Linear", 223.0, 2.88, 180.0, 4.9, 1.847)}
+}}
+}},
+{"RADIUM", {{"OCTAHEDRAL", {{"+2", DATA_Element("Ra", "Octahedral", 226.0, 2.512, 90.0, 3.677, 2.92)}
+}}
+}},
+{"ACTINIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Ac", "Octahedral", 227.0, 1.983, 90.0, 3.478, 3.9)}
+}}
+}},
+{"THORIUM", {{"OCTAHEDRAL", {{"+4", DATA_Element("Th", "Octahedral", 232.03799999999998, 1.7209999999999999, 90.0, 3.3960000000000004, 4.202)}
+}}
+}},
+{"PROTACTINIUM", {{"OCTAHEDRAL", {{"+4", DATA_Element("Pa", "Octahedral", 231.03599999999997, 1.7109999999999999, 90.0, 3.424, 3.9)}
+}}
+}},
+{"URANIUM", {{"OCTAHEDRAL", {{"+4", DATA_Element("U", "Octahedral", 238.02900000000002, 1.6840000000000002, 90.0, 3.395, 3.9)}
+}}
+}},
+{"NEPTUNIUM", {{"OCTAHEDRAL", {{"+4", DATA_Element("Np", "Octahedral", 237.0, 1.666, 90.0, 3.424, 3.9)}
+}}
+}},
+{"PLUTONIUM", {{"OCTAHEDRAL", {{"+4", DATA_Element("Pu", "Octahedral", 244.0, 1.6569999999999998, 90.0, 3.424, 3.9)}
+}}
+}},
+{"AMERICIUM", {{"OCTAHEDRAL", {{"+4", DATA_Element("Am", "Octahedral", 243.0, 1.66, 90.0, 3.3810000000000002, 3.9)}
+}}
+}},
+{"CURIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Cm", "Octahedral", 247.0, 1.801, 90.0, 3.326, 3.9)}
+}}
+}},
+{"BERKELIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Bk", "Octahedral", 247.0, 1.761, 90.0, 3.339, 3.9)}
+}}
+}},
+{"CALIFORNIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Cf", "Octahedral", 251.0, 1.75, 90.0, 3.313, 3.9)}
+}}
+}},
+{"EINSTEINIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Es", "Octahedral", 252.0, 1.724, 90.0, 3.299, 3.9)}
+}}
+}},
+{"FERMIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Fm", "Octahedral", 257.0, 1.712, 90.0, 3.286, 3.9)}
+}}
+}},
+{"MENDELEVIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Md", "Octahedral", 258.0, 1.689, 90.0, 3.2739999999999996, 3.9)}
+}}
+}},
+{"NOBELIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("No", "Octahedral", 259.0, 1.679, 90.0, 3.248, 3.9)}
+}}
+}},
+{"LAWRENCIUM", {{"OCTAHEDRAL", {{"+3", DATA_Element("Lr", "Octahedral", 262.0, 1.6980000000000002, 90.0, 3.236, 3.9)}
+}}
+}}
