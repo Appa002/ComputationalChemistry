@@ -1,6 +1,6 @@
 # Computational Chemistry
 
-This project is a simulation of the internal motion of molecules created for and during my international baccalaureate computer science course as the internal assessment. This was created from 2020 to 2021 and uploaded only now in 2022.
+This project is a simulation of the internal motion of molecules created for and during my international baccalaureate computer science course as the internal assessment. This was created from 2020 to 2021 and uploaded only in 2022.
 
 The acceleration each atom experiences due to the surrounding atoms is computed in parallel on the GPU enabling large molecules to be simulated. This simulation is based on a uniform force field approach from
 *UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations A. K. Rappe, C. J. Casewit, K. S. Colwell, W. A. Goddard III, and W. M. Skiff
